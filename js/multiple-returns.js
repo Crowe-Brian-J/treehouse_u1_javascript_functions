@@ -10,5 +10,5 @@ const isFieldEmpty = () => {
 const fieldTest = isFieldEmpty()
 
 if (fieldTest === true) {
-  alert('Please input')
+  alert('Please provide your information.')
 }
