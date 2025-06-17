@@ -1,6 +1,6 @@
-const alertRandom = () => {
+const getRandom = () => {
   const randomNumber = Math.floor(Math.random() * 6) + 1
-  alert(randomNumber)
+  return randomNumber
 }
 
-alertRandom()
+console.log(getRandom())
